@@ -24,5 +24,4 @@ rtlChars += '\uFE70-\uFEFF' # Arabic Presentation Forms-B - Range
 
 reRTL = new RegExp "^[#{rtlChars}]"
 
-window.isRTL = (text) ->
-  true if text.match reRTL
+window.isRTL = (text) -> text.match reRTL

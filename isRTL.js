@@ -32,9 +32,7 @@
   reRTL = new RegExp("^[" + rtlChars + "]");
 
   window.isRTL = function(text) {
-    if (text.match(reRTL)) {
-      return true;
-    }
+    return text.match(reRTL);
   };
 
 }).call(this);
