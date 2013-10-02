@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "isRTL.js",
+  "sourceRoot": "",
+  "sources": [
+    "isRTL.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;;;;;;CAAA;;CAOA;;;;CAPA;;CAYA;;;CAZA;CAAA;CAAA;CAAA,KAAA,SAAA;;CAAA,CAgBA,CAAW,KAAX,OAhBA;;CAAA,CAkBA,EAAY,IAAZ,OAlBA;;CAAA,CAoBA,EAAY,IAAZ,OApBA;;CAAA,CAsBA,EAAY,IAAZ,OAtBA;;CAAA,CAwBA,CAAY,CAAA,CAAZ,CAAY,EAAQ;;CAxBpB,CA0BA,CAAe,EAAf,CAAM,GAAU;CACd,GAAA,CAAQ;CAAR,YACE;MADF;CAAA,YAGE;MAJW;CA1Bf,EA0Be;CA1Bf"
+}
