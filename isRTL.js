@@ -31,8 +31,8 @@
 
   reRTL = new RegExp("^[" + rtlChars + "]");
 
-  window.isRTL = function(value) {
-    if (value.match(reRTL)) {
+  window.isRTL = function(text) {
+    if (text.match(reRTL)) {
       return true;
     } else {
       return false;
