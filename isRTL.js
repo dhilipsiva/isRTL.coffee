@@ -34,13 +34,7 @@
   window.isRTL = function(text) {
     if (text.match(reRTL)) {
       return true;
-    } else {
-      return false;
     }
   };
 
 }).call(this);
-
-/*
-//@ sourceMappingURL=isRTL.map
-*/
