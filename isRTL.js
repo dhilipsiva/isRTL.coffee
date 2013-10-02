@@ -10,6 +10,9 @@
 /*
  FIXME: I have added support only for arabic charecters.
  Any Pull request for other characters is greatly appreciated.
+
+ Discussion:
+ http://codereview.stackexchange.com/questions/32131/isrtl-coffee-a-javascript-library-to-determine-if-a-text-is-of-right-to-left-d
 */
 
 
@@ -21,13 +24,7 @@
 (function() {
   var reRTL, rtlChars;
 
-  rtlChars = '\u0600-\u06FF';
-
-  rtlChars += '\u0750-\u077F';
-
-  rtlChars += '\uFB50-\uFDFF';
-
-  rtlChars += '\uFE70-\uFEFF';
+  rtlChars = ['\u0600-\u06FF', '\u0750-\u077F', '\uFB50-\uFDFF', '\uFE70-\uFEFF'].join("");
 
   reRTL = new RegExp("^[" + rtlChars + "]");
 
@@ -36,3 +33,7 @@
   };
 
 }).call(this);
+
+/*
+//@ sourceMappingURL=isRTL.map
+*/
