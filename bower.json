@@ -1,0 +1,23 @@
+{
+  "name": "isRTL.coffee",
+  "version": "0.1",
+  "homepage": "https://github.com/dhilipsiva/isRTL.coffee",
+  "authors": [
+    "dhilipsiva <dhilipsiva@gmail.com>"
+  ],
+  "description": "A small JavaScript Library to detect RTL (Right-To-Left) text.",
+  "main": "isRTL.coffee",
+  "keywords": [
+    "right-to-left",
+    "RTL",
+    "text-direction"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
