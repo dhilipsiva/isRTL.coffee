@@ -9,8 +9,16 @@
   "main": "isRTL.coffee",
   "keywords": [
     "right-to-left",
+    "right to left",
+    "right",
+    "left",
+    "rtl",
     "RTL",
-    "text-direction"
+    "isrtl",
+    "isRTL",
+    "text-direction",
+    "text direction",
+    "direction detection"
   ],
   "license": "MIT",
   "ignore": [
