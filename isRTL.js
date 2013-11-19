@@ -29,11 +29,7 @@
   reRTL = new RegExp("^[" + rtlChars + "]");
 
   window.isRTL = function(text) {
-    return text.match(reRTL);
+    return text.test(reRTL);
   };
 
 }).call(this);
-
-/*
-//@ sourceMappingURL=isRTL.map
-*/
