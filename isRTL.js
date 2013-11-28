@@ -29,7 +29,7 @@
   reRTL = new RegExp("^[" + rtlChars + "]");
 
   window.isRTL = function(text) {
-    return text.test(reRTL);
+    return text.match(reRTL);
   };
 
 }).call(this);
