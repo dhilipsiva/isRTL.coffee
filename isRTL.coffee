@@ -26,4 +26,4 @@ rtlChars = [
 
 reRTL = new RegExp "^[#{rtlChars}]"
 
-window.isRTL = (text) -> text.test reRTL
+window.isRTL = (text) -> text.match reRTL
