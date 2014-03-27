@@ -1,0 +1,14 @@
+ <!DOCTYPE html>
+<html lang="en" >
+<head>
+	<title>isRTL</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
+	<script src="isRTL.js"></script>
+</head>
+
+<body>
+	<label>enter hebrew or arabic characters and see the direction changes</label>
+	<br/>
+	<textarea onkeyup="this.style.direction = isRTL(this.value) ? 'rtl' : 'ltr'" style="height:200px;width:200px;"></textarea>
+</body>
