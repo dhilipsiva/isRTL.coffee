@@ -15,19 +15,16 @@
 
 
 rtlChars = [
-  ###
-  Arabic Characters
-  ###
+  # Arabic Characters
   '\u0600-\u06FF' # Arabic - Range
   '\u0750-\u077F' # Arabic Supplement - Range
   '\uFB50-\uFDFF' # Arabic Presentation Forms-A - Range
   '\uFE70-\uFEFF' # Arabic Presentation Forms-B - Range
-  ###
-  Hebrew Range
-  ###
+  # Hebrew Range
   '\u05D0-\u05FF'
-].join("")
+].join ""
 
 reRTL = new RegExp "^[#{rtlChars}]", "gi"
 
-window.isRTL = (text) -> reRTL.test text 
+window.isRTL = (text) ->
+  reRTL.test text
